@@ -1,0 +1,376 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="Enlaces.html.css" rel="stylesheet" type="text/css">
+<link href="Estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Tablas en HTML&nbsp;</h1>
+</header>
+<nav>
+<ul id="Menu_Principal">
+	<li><a href="Enlaces.html">Enlaces</a></li>
+    <li><a href="Listas.html">Listas</a></li>
+	<li><a href="Audios.html">Audios&nbsp;</a></li>
+	<li><a href="Videos.html">Videos&nbsp;</a></li>
+	<li><a href="Formularios.html">Formularios&nbsp;</a></li>
+	<li><a href="Procesamiento.html">Procesamiento&nbsp;</a></li>
+	<li><a href="../Index.html">Index&nbsp;</a></li>
+  </ul>	
+	
+</nav>
+<main>
+  <section>
+    <h2>Tabla desde código&nbsp;&nbsp;</h2>
+    <p>&nbsp;</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula elit, fringilla eu tristique id, viverra ac erat. Praesent est lorem, vestibulum eu eleifend blandit, sollicitudin eu urna. <a href="Enlaces.html">Vivamus ultricies</a> convallis feugiat. Quisque ut malesuada lacus. Aenean viverra enim eget tellus cursus tempus. Aenean nec tempus metus, vel cursus nisi.</p>
+	  <table border="1" id="tabla_1">
+	  <thead>
+	    <tr>
+		  <th>Nombre</th>
+		  <th>Taller</th>
+		  <th>Email</th>
+		<th>Costo del taller</th>
+		</tr>  
+	  </thead>
+	  <tbody>
+		<tr>
+		  <td>Jose Montiel</td>
+		  <td>Canto</td>
+		  <td>pepemontielmj23@gmail.com</td>
+		  <td>1050</td>
+		</tr> 
+		  <tr>
+		  	<td>Mia Toledo</td>
+		  	<td>Bisuteria</td>
+		  	<td>miatoledo11@gmail.com</td>
+		  	<td>1200</td>
+		  </tr>
+		  <tr>
+		  	<td>Hector Ortega</td>
+		  	<td>Fotografía</td>
+		  	<td>elpapukawai01@gmail.com</td>
+		  	<td>1200</td>
+		  </tr>
+		  <tr>
+		  	<td>Moises Herrera</td>
+		  	<td>Computación</td>
+		  	<td>Moiherrerag123@gmail.com</td>
+		  	<td>1200</td>
+		  </tr>
+		  <tr>
+		  	<td>Yuri Lopez</td>
+		  	<td>Pintura</td>
+		  	<td>yurilop30@gmail.com</td>
+		  	<td>1050</td>
+		  </tr>
+	  </tbody>
+	  <tfoot>
+		<tr>
+		  <td></td>
+		  <td></td>
+		  <td>Total de inscripcion</td>
+		  <td>5700</td>
+		</tr>  
+	  </tfoot>
+	  </table>
+</section>
+	
+  <section>
+    <h2>Tabla con Estilo CSS y Uso de Rowspan</h2>
+    <p>&nbsp;</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula elit, fringilla eu tristique id, viverra ac erat. Praesent est lorem, vestibulum eu eleifend blandit, sollicitudin eu urna. <a href="Enlaces.html">Vivamus ultricies</a> convallis feugiat. Quisque ut malesuada lacus. Aenean viverra enim eget tellus cursus tempus. Aenean nec tempus metus, vel cursus nisi.</p>
+    <table border="1" id="tabla_2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Taller</th>
+          <th>Email</th>
+          <th>Costo del taller</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jose Montiel</td>
+          <td>Canto</td>
+          <td>pepemontielmj23@gmail.com</td>
+          <td>1050</td>
+        </tr>
+        <tr>
+          <td>Mia Toledo</td>
+          <td>Bisuteria</td>
+          <td>miatoledo11@gmail.com</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>Hector Ortega</td>
+          <td>Fotografía</td>
+          <td>elpapukawai01@gmail.com</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>Moises Herrera</td>
+          <td>Computación</td>
+          <td>Moiherrerag123@gmail.com</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>Yuri Lopez</td>
+          <td>Pintura</td>
+          <td>yurilop30@gmail.com</td>
+          <td>1050</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" style="background-color: teal; font font-weight: bold; color: white">Total de inscripcion</td>
+          <td>5700</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+  <section>
+    <h2>Tabla con Cebras en Horizontal o Filas&nbsp;</h2>
+    <p>&nbsp;</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula elit, fringilla eu tristique id, viverra ac erat. Praesent est lorem, vestibulum eu eleifend blandit, sollicitudin eu urna. <a href="Enlaces.html">Vivamus ultricies</a> convallis feugiat. Quisque ut malesuada lacus. Aenean viverra enim eget tellus cursus tempus. Aenean nec tempus metus, vel cursus nisi.</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla_3">
+		<thead>
+		<tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">Correo Electronico&nbsp;</th>
+          <th scope="col">&nbsp;Telefono</th>
+          <th scope="col">&nbsp;Edad</th>
+          <th scope="col">&nbsp;Deporte</th>
+        </tr>
+		</thead>
+      <tbody>
+        
+        <tr>
+          <td>&nbsp;Hector Ortega</td>
+          <td>&nbsp;elpapukawai01@gmail.com</td>
+          <td>&nbsp;2311204465</td>
+          <td>&nbsp;22</td>
+          <td>&nbsp;Baloncesto</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Jose Montiel&nbsp;</td>
+          <td>pepemontielmj23@gmail.com</td>
+          <td>&nbsp;2311107655</td>
+          <td>&nbsp;21</td>
+          <td>&nbsp;Soccer</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Elian Franco</td>
+          <td>francolopeze50@gmail.com</td>
+          <td>&nbsp;2313226501</td>
+          <td>&nbsp;21</td>
+          <td>&nbsp;Americano</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Arturo Garcia</td>
+          <td>&nbsp;Arthurbaloo01@gmail.com</td>
+          <td>&nbsp;2311530609</td>
+          <td>&nbsp;19</td>
+          <td>&nbsp;Baloncesto</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+  <section>
+    <h2>Tabla con Cebras en Vertical o Columna&nbsp; &nbsp;&nbsp;</h2>
+    <p>&nbsp;</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula elit, fringilla eu tristique id, viverra ac erat. Praesent est lorem, vestibulum eu eleifend blandit, sollicitudin eu urna. <a href="Enlaces.html">Vivamus ultricies</a> convallis feugiat. Quisque ut malesuada lacus. Aenean viverra enim eget tellus cursus tempus. Aenean nec tempus metus, vel cursus nisi.</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla_4">
+      <thead>
+        <tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">Correo Electronico&nbsp;</th>
+          <th scope="col">&nbsp;Telefono</th>
+          <th scope="col">&nbsp;Edad</th>
+          <th scope="col">&nbsp;Deporte</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Hector Ortega</td>
+          <td>&nbsp;elpapukawai01@gmail.com</td>
+          <td>&nbsp;2311204465</td>
+          <td>&nbsp;22</td>
+          <td>&nbsp;Baloncesto</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Jose Montiel&nbsp;</td>
+          <td>pepemontielmj23@gmail.com</td>
+          <td>&nbsp;2311107655</td>
+          <td>&nbsp;21</td>
+          <td>&nbsp;Soccer</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Elian Franco</td>
+          <td>francolopeze50@gmail.com</td>
+          <td>&nbsp;2313226501</td>
+          <td>&nbsp;21</td>
+          <td>&nbsp;Americano</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Arturo Garcia</td>
+          <td>&nbsp;Arthurbaloo01@gmail.com</td>
+          <td>&nbsp;2311530609</td>
+          <td>&nbsp;19</td>
+          <td>&nbsp;Baloncesto</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+  <section>
+    <h2>Tabla Flotante (Hover)&nbsp;</h2>
+    <p>&nbsp;</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula elit, fringilla eu tristique id, viverra ac erat. Praesent est lorem, vestibulum eu eleifend blandit, sollicitudin eu urna. <a href="Enlaces.html">Vivamus ultricies</a> convallis feugiat. Quisque ut malesuada lacus. Aenean viverra enim eget tellus cursus tempus. Aenean nec tempus metus, vel cursus nisi.</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla_5">
+      <thead>
+        <tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">Correo Electronico&nbsp;</th>
+          <th scope="col">&nbsp;Telefono</th>
+          <th scope="col">&nbsp;Edad</th>
+          <th scope="col">&nbsp;Deporte</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Hector Ortega</td>
+          <td>&nbsp;elpapukawai01@gmail.com</td>
+          <td>&nbsp;2311204465</td>
+          <td>&nbsp;22</td>
+          <td>&nbsp;Baloncesto</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Jose Montiel&nbsp;</td>
+          <td>pepemontielmj23@gmail.com</td>
+          <td>&nbsp;2311107655</td>
+          <td>&nbsp;21</td>
+          <td>&nbsp;Soccer</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Elian Franco</td>
+          <td>francolopeze50@gmail.com</td>
+          <td>&nbsp;2313226501</td>
+          <td>&nbsp;21</td>
+          <td>&nbsp;Americano</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Arturo Garcia</td>
+          <td>&nbsp;Arthurbaloo01@gmail.com</td>
+          <td>&nbsp;2311530609</td>
+          <td>&nbsp;19</td>
+          <td>&nbsp;Baloncesto</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2>Tabla Receptiva&nbsp;</h2>
+    <p>&nbsp;</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula elit, fringilla eu tristique id, viverra ac erat. Praesent est lorem, vestibulum eu eleifend blandit, sollicitudin eu urna. <a href="Enlaces.html">Vivamus ultricies</a> convallis feugiat. Quisque ut malesuada lacus. Aenean viverra enim eget tellus cursus tempus. Aenean nec tempus metus, vel cursus nisi.&nbsp;</p>
+<div id="tabla_receptiva">
+  <table border="1" cellspacing="5" id="tabla_6">
+    <tbody>
+      <tr>
+        <th scope="col">Nombre&nbsp;</th>
+        <th scope="col">&nbsp;Puntos</th>
+        <th scope="col">&nbsp;Puntos</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">&nbsp;Puntos</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">&nbsp;Puntos</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">&nbsp;Puntos</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+      </tr>
+      <tr>
+        <td>&nbsp;Danii</td>
+        <td>&nbsp;40</td>
+        <td>&nbsp;25</td>
+        <td>&nbsp;90</td>
+        <td>&nbsp;80</td>
+        <td>&nbsp;90</td>
+        <td>&nbsp;60</td>
+        <td>&nbsp;20</td>
+        <td>&nbsp;40</td>
+        <td>70&nbsp;</td>
+        <td>&nbsp;100</td>
+        <td>&nbsp;40</td>
+        <td>&nbsp;20</td>
+        <td>&nbsp;80</td>
+        <td>&nbsp;40</td>
+      </tr>
+      <tr>
+        <td>&nbsp;Lili</td>
+        <td>&nbsp;30</td>
+        <td>&nbsp;70</td>
+        <td>&nbsp;50</td>
+        <td>&nbsp;15</td>
+        <td>&nbsp;90</td>
+        <td>&nbsp;90</td>
+        <td>&nbsp;100</td>
+        <td>&nbsp;80</td>
+        <td>&nbsp;100</td>
+        <td>&nbsp;90</td>
+        <td>&nbsp;10</td>
+        <td>&nbsp;100</td>
+        <td>&nbsp;90</td>
+        <td>&nbsp;70</td>
+      </tr>
+      <tr>
+        <td>&nbsp;Enrique</td>
+        <td>&nbsp;50</td>
+        <td>&nbsp;80</td>
+        <td>&nbsp;70</td>
+        <td>&nbsp;70</td>
+        <td>&nbsp;30</td>
+        <td>&nbsp;40</td>
+        <td>&nbsp;15</td>
+        <td>&nbsp;60</td>
+        <td>&nbsp;90</td>
+        <td>&nbsp;10</td>
+        <td>&nbsp;80</td>
+        <td>&nbsp;10</td>
+        <td>&nbsp;90</td>
+        <td>&nbsp;80</td>
+      </tr>
+      <tr>
+        <td>&nbsp;Luís</td>
+        <td>&nbsp;90</td>
+        <td>&nbsp;60</td>
+        <td>&nbsp;30</td>
+        <td>&nbsp;90</td>
+        <td>&nbsp;10</td>
+        <td>&nbsp;50</td>
+        <td>&nbsp;30</td>
+        <td>&nbsp;70</td>
+        <td>&nbsp;40</td>
+        <td>&nbsp;30</td>
+        <td>&nbsp;50</td>
+        <td>&nbsp;30</td>
+        <td>&nbsp;80</td>
+        <td>&nbsp;100</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Juan Antony Palestina Rivera&nbsp; &nbsp;</h6>
+&nbsp;</footer>
+</body>
+</html>
